@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/opowerupo/opowerupo.github.io/issues"
   },
-  "homepage": "https://github.com/opowerupo/opowerupo.github.io#readme"
+  "homepage": "https://github.com/opowerupo/opowerupo.github.io#readme",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
 }
