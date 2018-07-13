@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
@@ -25,15 +25,15 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+dateformat.i18n = require('./lang/' + l)
+return true;
 }
 ```
 
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
+s.add_dependency(gem, "= #{version}")
 end
 ```
 
@@ -79,17 +79,17 @@ end
 ### And a nested list:
 
 - level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
+- level 2 item
+- level 2 item
+- level 3 item
+- level 3 item
 - level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
+- level 2 item
+- level 2 item
+- level 2 item
 - level 1 item
-  - level 2 item
-  - level 2 item
+- level 2 item
+- level 2 item
 - level 1 item
 
 ### Small image
@@ -104,14 +104,14 @@ end
 ### Definition lists can be used with HTML syntax.
 
 <dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+    <dt>Name</dt>
+    <dd>Godzilla</dd>
+    <dt>Born</dt>
+    <dd>1952</dd>
+    <dt>Birthplace</dt>
+    <dd>Japan</dd>
+    <dt>Color</dt>
+    <dd>Green</dd>
 </dl>
 
 ```
