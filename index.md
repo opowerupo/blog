@@ -30,6 +30,16 @@ return true;
 }
 ```
 
+```java
+//Java code with syntax highlighting
+public class test {
+    private String name;
+    public static void main(String[] args){
+        System.out.println("Hello World");
+    }
+}
+```
+
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
