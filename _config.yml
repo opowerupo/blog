@@ -1,5 +1,5 @@
-title: 我的博客
-description: 王浩的第一篇博客
+title: WH Blog Home
+description: my learning notes
 show_downloads: false
 google_analytics: false
-theme: jekyll-theme-architect
+theme: jekyll-theme-hacker
