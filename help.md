@@ -4,7 +4,7 @@ layout: default
 
 Text can be **你好**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to another page](/).
 
 There should be whitespace between paragraphs.
 
