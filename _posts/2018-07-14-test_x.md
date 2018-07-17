@@ -13,4 +13,4 @@ excerpt_separator: <!--more-->
 
 我的第三句话
 
-[Back to Home](../../../).
+[Back to Home](/).
