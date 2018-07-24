@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=f6515d188a0aeb009a0827b5d5c46234845d6549">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>jekyll | WH Blog Home</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="jekyll" />
+<meta name="author" content="wanghao" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="一个简单的博客形态的静态站点生产机器" />
+<meta property="og:description" content="一个简单的博客形态的静态站点生产机器" />
+<link rel="canonical" href="http://localhost:4000/2018/07/13/jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/2018/07/13/jekyll.html" />
+<meta property="og:site_name" content="WH Blog Home" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-07-13T00:00:00+08:00" />
+<script type="application/ld+json">
+{"headline":"jekyll","dateModified":"2018-07-13T00:00:00+08:00","datePublished":"2018-07-13T00:00:00+08:00","author":{"@type":"Person","name":"wanghao"},"description":"一个简单的博客形态的静态站点生产机器","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/07/13/jekyll.html"},"@type":"BlogPosting","url":"http://localhost:4000/2018/07/13/jekyll.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>WH Blog Home</h1>
+        <h2>my learning notes</h2>
+        <section id="downloads">
+            <a href="/" class="btn">Home</a>
+            <a href="/help.html" class="btn">Help</a>
+            <a href="http://github.com/opowerupo/opowerupo.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            
+        </section>
+    </div>
+</header>
+
+<div class="container">
+    <section id="main_content">
+        <small>2018/07/13</small>
+<h1>jekyll</h1>
+<p class="view">by wanghao</p>
+
+<h2 id="启动本地服务">启动本地服务</h2>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#启动 ctrl+c关闭</span>
+<span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+
+<span class="c1">#在后台启动</span>
+<span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">detach</span>
+
+<span class="c1">#关闭后台服务器</span>
+<span class="n">pkill</span> <span class="o">-</span><span class="n">f</span> <span class="n">jekyll</span>
+<span class="c1">#获取 PID</span>
+<span class="n">ps</span> <span class="n">aux</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">jekyll</span>
+<span class="c1">#kill 进程</span>
+<span class="n">kill</span> <span class="o">-</span><span class="mi">9</span> <span class="no">PID</span>
+</code></pre></div></div>
+
+<h3 id="jekyll中文文档"><a href="http://jekyllcn.com/docs/home/">jekyll中文文档</a>.</h3>
+
+
+
+
+<small>tags: <em>Study</em> - <em>jekyll</em></small>
+
+
+    </section>
+</div>
+
+
+</body>
+</html>
