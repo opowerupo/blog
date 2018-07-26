@@ -56,7 +56,7 @@ excerpt: Gradle安装工具和流程
 添加 GRADLE_HOME/bin 到 PATH 环境变量中.
 
 ### 3.测试安装结果
-```
+>```
 ❯ gradle -v
                                                                        ` 
 -------------------------------------------------------------------
@@ -72,7 +72,7 @@ Groovy:       2.4.1
 Ant:          Apache Ant(TM) version 1.9.11 compiled on March 23 2018
 JVM:          1.8.0_66 (Oracle Corporation 25.66-b17)
 OS:           Mac OS X 10.11.6 x86_64
-```
+>```
 
 * 以上是Gradle的安装，摘自[Gradle官网](https://docs.gradle.org/current/userguide/installation.html).
 
