@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+### [jekyll文档](http://jekyllcn.com/docs/home/).
+
+```ruby
+#启动 ctrl+c关闭
+bundle exec jekyll serve
+
+#在后台启动
+bundle exec jekyll serve --detach
+
+#关闭后台服务器
+pkill -f jekyll
+#获取 PID
+ps aux | grep jekyll
+#kill 进程
+kill -9 PID
+```
 
 Text can be **你好**, _italic_, or ~~strikethrough~~.
 
@@ -104,7 +120,7 @@ end
 
 ### Small image
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![Octocat](../assets/images/smallpic.jpg)
 
 ### Large image
 
